@@ -1,53 +1,41 @@
+ body { background: white !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 
-   body { background: white !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-
-  a  { color: lightgrey !important; }
-
+  a  { color: lightgrey!important; }
 
 p { font-size: 20px;
     text-align: center;
-    margin-top: 20px !important;}
+    margin-top: 20px;
+    color: grey!important;}
 
 
-  form  { border: 3px solid lightgrey;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    background-color: lightgrey;
-      border-radius: 0px !important; }
+form  { border: 10px solid lightgrey;
+  border-width: 15px 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: lightgrey !important; }
 
-form  {padding: 15px 20px;
+form  {padding: 10px 1px;
   margin: 0 auto;
   width: 500px !important;}
 
 
-
 div[type="text"]:focus {
-        background-color: white;
-        align-content: center !important;
+  background-color: white;
+  align-content: center !important;
       }
 
+.text { font-size: 15px;
+  text-align: center;
+  color: black !important
+  ;}
 
-.icon-bar {
-        position: fixed;
-        top: 75%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%) !important; }
+footer { background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;}            
 
-.icon-bar a {
-         display: block;
-        text-align: center;
-        padding: 16px;
-        transition: all 0.3s ease;
-        color: white;
-        font-size: 20px !important ; }
-
-.icon-bar a:hover {
-        background-color: #000;}
-        .twitter {
-            background: #55ACEE;
-            color: white; }
+        
 
         
