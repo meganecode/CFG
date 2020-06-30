@@ -1,41 +1,44 @@
- body { background: white !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 
-  a  { color: lightgrey!important; }
+ body { background: white ; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+ 
+a  { color: lightgrey !important; }
+
 
 p { font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    color: grey!important;}
+    color: grey;}
 
-
+  
 form  { border: 10px solid lightgrey;
-  border-width: 15px 20px;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 10px;
-  background-color: lightgrey !important; }
+      border-width: 15px 20px;
+      margin-top: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      border-radius: 10px;
+      background-color: lightgrey ; } 
 
-form  {padding: 10px 1px;
-  margin: 0 auto;
-  width: 500px !important;}
+   form {
+        padding: 10px 1px;
+        margin: 0 auto;
+       max-width: fit-content;
+      }
 
 
 div[type="text"]:focus {
   background-color: white;
-  align-content: center !important;
+  align-content: center ;
       }
+
 
 .text { font-size: 15px;
   text-align: center;
-  color: black !important
+  color: black 
   ;}
+
 
 footer { background-color: black;
   color: white;
   padding: 1rem;
   text-align: center;}            
-
-        
-
-        
